@@ -25,7 +25,7 @@ passion
           className="top-28 left-80 h-[80vh] w-[50vw] max-xl:hidden"
           fill="blue"
         />
-        <div className="absoulute flex h-screen w-full pt-45 justify-center bg-white dark:bg-[#10101a]">
+        <div className="absoulute flex h-[90vh] w-full pt-45 justify-center bg-white dark:bg-[#10101a]">
           <div
             className={cn(
               "absolute inset-0",
