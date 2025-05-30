@@ -1,5 +1,6 @@
 import AboutMeSection from "@/components/AboutMeSection";
 import HeroSection from "@/components/HeroSection";
+import ProjectSection from "@/components/ProjectSection";
 import Topbar from "@/components/Topbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Topbar />
       <HeroSection />
       <AboutMeSection />
+      <ProjectSection />
     </>
   );
 }
