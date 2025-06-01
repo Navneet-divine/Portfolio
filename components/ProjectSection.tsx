@@ -27,17 +27,17 @@ export default function ProjectSection() {
           title="Eventhub"
           description="A place to find, join, and host Events with a clean and easy to use user interface. Loaded with search capabilities and filters to find the best events you want without wasting time and many more."
           stacks={["Next.js", "TypeScript", "MongoDB", "Shadcn UI"]}
-          githubLink="https://github.com/Navneet-divine"
+          githubLink="https://github.com/Navneet-divine/eventhub"
           liveLink="https://eventhub-j1dh.onrender.com/"
           className=""
         />
         <ProjectCard
           image={projectTwo}
-          title="Eventhub"
-          description="A place to find, join, and host Events with a clean and easy to use user interface. Loaded with search capabilities and filters to find the best events you want without wasting time and many more."
-          stacks={["Next.js", "TypeScript", "MongoDB", "Shadcn UI"]}
-          githubLink="https://github.com/Navneet-divine"
-          liveLink="https://eventhub-j1dh.onrender.com/"
+          title="Poster"
+          description="Poster is a modern full-stack blog platform where users can create, update, delete, and like posts. Built with a sleek UI and powerful technologies, Poster offers a smooth and intuitive user experience for sharing thoughts and engaging with content."
+          stacks={["Next.js", "TypeScript", "MongoDB", "Mantine UI"]}
+          githubLink="https://github.com/Navneet-divine/poster"
+          liveLink="https://poster-r92j.onrender.com/"
           className="md:flex-row-reverse"
         />
       </div>
