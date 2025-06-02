@@ -27,9 +27,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
       viewport={{ once: true }}
-      className={`flex justify-between flex-col md:flex-row gap-10 ${className} pb-50`}
+      className={`flex justify-between flex-col items-center lg:flex-row gap-10 ${className} pb-50`}
     >
-      <div className="border-2 p-4 cursor-pointer border-[#2a2b37] rounded-xl md:w-[45%]">
+      <div className="border-2 p-4 border-[#2a2b37] rounded-xl sm:w-[80%] md:w-[75%] lg:w-[50%] xl:w-[45%]">
         <Link href={liveLink} target="_blank" rel="noopener noreferrer">
           <Image
             src={image}
@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           />
         </Link>
       </div>
-      <div className="flex flex-col gap-8 justify-center items-center md:items-end p-4 md:w-[45%] ">
+      <div className="flex flex-col gap-8 justify-center items-center p-4 sm:w-[80%] md:w-[75%] lg:w-[45%]">
         <div>
           <h1 className="text-5xl font-bold font-poppins gradient-text">
             {title}

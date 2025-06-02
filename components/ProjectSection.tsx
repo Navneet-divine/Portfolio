@@ -8,7 +8,7 @@ import projectTwo from "@/public/images/project-2.png";
 
 export default function ProjectSection() {
   return (
-    <section id="projects" className="pb-[500px] mt-18">
+    <section id="projects" className="pb-[500px] mt-18 ">
       <div className="flex justify-center pt-20 pb-20">
         <motion.h1
           className="text-6xl font-poppins font-bold text-white gradient-text"
@@ -21,7 +21,7 @@ export default function ProjectSection() {
         </motion.h1>
       </div>
 
-      <div className="px-5 md:px-14 lg:px-32">
+      <div className="px-5 md:px-14 lg:px-32 min-[530px]:px-16">
         <ProjectCard
           image={projectOne}
           title="Eventhub"
@@ -38,7 +38,7 @@ export default function ProjectSection() {
           stacks={["Next.js", "TypeScript", "MongoDB", "Mantine UI"]}
           githubLink="https://github.com/Navneet-divine/poster"
           liveLink="https://poster-r92j.onrender.com/"
-          className="md:flex-row-reverse"
+          className="lg:flex-row-reverse"
         />
       </div>
     </section>

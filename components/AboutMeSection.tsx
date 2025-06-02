@@ -38,7 +38,7 @@ export default function AboutMeSection() {
         </motion.h1>
       </div>
 
-      <div className="px-5 md:px-14 lg:px-50">
+      <div className="px-5 md:px-14 lg:px-32 min-[530px]:px-16">
         <motion.div
           className="text-center text-lg sm:text-xl md:text-2xl pt-20 font-montserrat text-gray-300"
           initial={{ opacity: 0, y: 100 }}
