@@ -1,6 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 export default function Footer() {
   return (

@@ -1,4 +1,4 @@
-"use client"; // important if you're using Next.js App Router with Client Components
+"use client";
 
 import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";

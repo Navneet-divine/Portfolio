@@ -1,10 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
-import { Flame } from "lucide-react";
 import { LeafyGreen } from "lucide-react";
 import { AudioWaveform } from "lucide-react";
 
 import { Activity } from "lucide-react";
+import Link from "next/link";
 
 export default function ContactSection() {
   return (
@@ -61,14 +61,20 @@ export default function ContactSection() {
         viewport={{ once: true }}
       >
         <div>
-          <div className="flex justify-center pt-7">
-            <button className="md:w-60 relative inline-flex h-12 overflow-hidden rounded-lg p-[1px] focus:outline-none">
-              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-slate-950 px-3 py-1 text-lg font-medium text-white backdrop-blur-3xl">
-                Say hello!👋
-              </span>
-            </button>
-          </div>
+          <Link
+            href="mailto:navneetkush0102@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div className="flex justify-center pt-7">
+              <button className="md:w-60 relative inline-flex h-12 overflow-hidden rounded-lg p-[1px] focus:outline-none">
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-slate-950 px-3 py-1 text-lg font-medium text-white backdrop-blur-3xl">
+                  Say hello!👋
+                </span>
+              </button>
+            </div>
+          </Link>
         </div>
       </motion.div>
     </section>

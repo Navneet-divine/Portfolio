@@ -33,7 +33,7 @@ passion
           <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
         </div>
 
-        <div className="flex h-[90vh] w-full pt-45 justify-center bg-white dark:bg-[#10101a]">
+        <div className="flex h-screen w-full pt-45 justify-center bg-white dark:bg-[#10101a]">
           <div
             className={cn(
               "absolute inset-0",
