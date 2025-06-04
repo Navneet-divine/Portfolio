@@ -19,7 +19,7 @@ passion
 
   return (
     <>
-      <section className="px-5">
+      <section className="relative px-5">
         <div className="relative w-full">
           <Spotlight
             className="top-28 left-35 h-[80vh] w-[50vw]"

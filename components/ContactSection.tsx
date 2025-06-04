@@ -4,11 +4,13 @@ import { Flame } from "lucide-react";
 import { LeafyGreen } from "lucide-react";
 import { AudioWaveform } from "lucide-react";
 
-export default function AboutMeSection() {
+import { Activity } from "lucide-react";
+
+export default function ContactSection() {
   return (
-    <section id="about" className="relative">
+    <section id="contact" className="relative pb-30">
       <div className="absolute top-20">
-        <Flame
+        <Activity
           size={120}
           className="absolute lg:top-5 lg:left-32 top-16 left-16 animate-pulse -translate-x-4 -rotate-45 text-[#212135]  -z-10"
         />
@@ -26,15 +28,15 @@ export default function AboutMeSection() {
         />
       </div>
 
-      <div className="flex justify-center pt-30">
+      <div className="flex justify-center pt-30 ">
         <motion.h1
-          className="text-5xl sm:text-6xl  font-poppins font-bold text-white gradient-text"
+          className="text-5xl sm:text-6xl font-poppins font-bold text-white gradient-text"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          About me
+          Get In Touch
         </motion.h1>
       </div>
 
@@ -46,12 +48,29 @@ export default function AboutMeSection() {
           transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
           viewport={{ once: true }}
         >
-          👋 Hi, I&apos;m Navneet — a passionate Full Stack Developer skilled in
-          MERN and Next.js. I love building clean, user-focused apps and always
-          strive to learn and grow. Currently open to remote opportunities where
-          I can create meaningful digital experiences.
+          Thanks for checking out my portfolio 🎉! I hope you liked it, I would
+          appreciate your feedback also, I'm constantly looking for new
+          opportunities and welcome anyone to my inboxes ✉️.
         </motion.div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
+        viewport={{ once: true }}
+      >
+        <div>
+          <div className="flex justify-center pt-7">
+            <button className="md:w-60 relative inline-flex h-12 overflow-hidden rounded-lg p-[1px] focus:outline-none">
+              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-slate-950 px-3 py-1 text-lg font-medium text-white backdrop-blur-3xl">
+                Say hello!👋
+              </span>
+            </button>
+          </div>
+        </div>
+      </motion.div>
     </section>
   );
 }

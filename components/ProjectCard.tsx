@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
       viewport={{ once: true }}
-      className={`flex justify-between flex-col items-center lg:flex-row gap-10 ${className} pb-50`}
+      className={`flex justify-between flex-col items-center lg:flex-row gap-10 ${className} pt-30`}
     >
       <div className="border-2 p-4 border-[#2a2b37] rounded-xl sm:w-[80%] md:w-[75%] lg:w-[50%] xl:w-[45%]">
         <Link href={liveLink} target="_blank" rel="noopener noreferrer">
