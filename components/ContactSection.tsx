@@ -48,9 +48,9 @@ export default function ContactSection() {
           transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
           viewport={{ once: true }}
         >
-          Thanks for checking out my portfolio 🎉! I hope you liked it, I would
-          appreciate your feedback also, I'm constantly looking for new
-          opportunities and welcome anyone to my inboxes ✉️.
+          Thanks for checking out my portfolio 🎉! I hope you liked it&lsquo; I
+          would appreciate your feedback also&lsquo; I&apos;m constantly looking
+          for new opportunities and welcome anyone to my inboxes ✉️.
         </motion.div>
       </div>
 
