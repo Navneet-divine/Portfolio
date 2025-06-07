@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Screenshot 2025-05-29 200656](https://github.com/user-attachments/assets/4c5681be-cf8e-4aca-8248-18007b760a86)
 
-## Getting Started
+# 🖥️ My Portfolio
+A fully responsive developer portfolio built with  Next.js, TailwindCSS, TypeScript, Aceternity UI.
 
-First, run the development server:
+# 🚀 Live Demo
+👉 [Live Site](https://navneet-five.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 🛠️ Tech Stack
+Frontend: React / Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Styling: TailwindCSS / Shadcn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Animations: Framer Motion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Hosting: Vercel
 
-## Learn More
+# 📁 Features
+Responsive Design
 
-To learn more about Next.js, take a look at the following resources:
+Smooth Scroll
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Animated Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Projects Showcase
 
-## Deploy on Vercel
+# 📬 Contact
+If you'd like to get in touch:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Email: navneetkush0102@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+LinkedIn: https://www.linkedin.com/in/navneet-kush/
+
+Twitter: https://x.com/navneet_na744
+
+
