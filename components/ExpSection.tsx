@@ -106,7 +106,7 @@ export default function ExpSection() {
                 ></motion.div>
 
                 {/* Content on desktop - takes 50% width, adjusted for mobile */}
-                <div className="flex-1 ml-20 md:ml-0">
+                <div className="flex-1 ml-12 md:ml-0">
                   <motion.div
                     className="border border-[#404050] rounded-lg p-6 md:p-8 bg-[#1a1a2e]/40 backdrop-blur-sm hover:border-[#6366f1] transition-all duration-300 h-full"
                     whileHover={{ scale: 1.02, borderColor: "#6366f1" }}
@@ -128,7 +128,7 @@ export default function ExpSection() {
                           </p>
                         </div>
                       </div>
-                      <span className="text-[10px] md:text-xs px-2 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/40">
+                      <span className="text-[10px] shrink-0 md:text-xs px-2 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/40">
                         {exp.type}
                       </span>
                     </div>
